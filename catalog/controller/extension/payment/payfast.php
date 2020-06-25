@@ -34,7 +34,7 @@ class ControllerExtensionPaymentPayfast extends Controller {
         $signature = md5($merchantid . ":" . $securitykey . ":" . $order_info['total'] . ":" . $this->session->data['order_id']);
         $data['signature'] = $signature;
         $data['proccode'] = 00;
-        $data['version'] = 'OPENCART-APPS-PAYMENT-0.9';
+        $data['version'] = 'OPENCART-APPS-PAYMENT-1.0-Sandbox';
         $data['txndesc'] = "Product Purchased From: " . $this->config->get('config_name');
         $data['order_date'] = date('Y-m-d H:i:s', time());
         $data['success_url'] = urlencode($this->url->link('extension/payment/payfast/callback') . "&redirect=Y&signature=" . $signature . "&basket_id=" . $order_id);

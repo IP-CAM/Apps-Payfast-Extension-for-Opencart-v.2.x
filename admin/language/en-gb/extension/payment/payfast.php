@@ -1,13 +1,13 @@
 <?php
 
 // Heading
-$_['heading_title'] = 'PayFast';
+$_['heading_title'] = 'PayFast Sandbox';
 
 // Text
 $_['text_extension'] = 'Extensions';
 $_['text_success'] = 'Success: You have modified the PayFast details.';
 $_['text_edit'] = 'Edit PayFast';
-$_['text_payfast'] = '<a href="http://www.apps.net.pk" target="_blank"><img width="104" height="35"  src="view/image/payment/payfast-logo.png" alt="PayFast" title="PayFast" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_payfast'] = '<a href="https://www.apps.net.pk" target="_blank"><img width="104" height="35"  src="view/image/payment/payfast-logo.png" alt="PayFast" title="PayFast" style="border: 1px solid #EEEEEE;" /></a>';
 
 // Entry
 $_['entry_merchant_id'] = 'Merchant ID';
