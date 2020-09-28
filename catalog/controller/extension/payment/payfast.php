@@ -18,7 +18,7 @@ class ControllerExtensionPaymentPayfast extends Controller {
 
         $data['button_confirm'] = $this->language->get('button_confirm');
 
-        $data['action'] = 'https://ipguat.apps.net.pk:7021/Ecommerce/api/Transaction/PostTransaction';
+        $data['action'] = 'https://ipguat.apps.net.pk/Ecommerce/api/Transaction/PostTransaction';
 
         $data['merchant_id'] = $this->config->get('payfast_merchant_id');
         $data['merchant_name'] = $this->config->get('payfast_merchant_name');
